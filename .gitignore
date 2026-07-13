@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs (optional)
+logs/*.jsonl
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
