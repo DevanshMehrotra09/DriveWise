@@ -39,6 +39,7 @@ LLM Generation → Grounded Answer + Source Attribution → Logging
    
 DriveWise/
 ├── data/brochures/<BRAND>/<Model>.pdf   # source brochures
+
 ├── notebooks/DriveWise.ipynb            # full pipeline, built section by section
 ├── app/app.py                           # Streamlit demo
 ├── vectorstore/                         # persisted FAISS index + chunk metadata
