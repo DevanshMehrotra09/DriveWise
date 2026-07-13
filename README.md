@@ -6,23 +6,6 @@ Every answer is generated strictly from retrieved brochure content, with sources
 back to the originating document, section, and page — no answers come from the language
 model's general knowledge.
 
-## Screenshots
-
-### Home Screen
-
-![Home Screen](screenshots/home.png)
-
-### SELECTION Example
-
-![Query Example](screenshots/brand.png)
-
-### SELECTION Example
-
-![Source Attribution](screenshots/model.png)
-
-### QUERY
-
-![Source Attribution](screenshots/query.png)
 
 ## Pipeline 
 Brand Selection → Model Selection → User Question → Metadata Filtering →
