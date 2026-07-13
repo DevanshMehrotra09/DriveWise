@@ -6,7 +6,8 @@ Every answer is generated strictly from retrieved brochure content, with sources
 back to the originating document, section, and page — no answers come from the language
 model's general knowledge.
 
-## Pipeline - Brand Selection → Model Selection → User Question → Metadata Filtering →
+## Pipeline -
+Brand Selection → Model Selection → User Question → Metadata Filtering →
 FAISS Vector Retrieval → Cross-Encoder Re-ranking → Prompt Construction →
 LLM Generation → Grounded Answer + Source Attribution → Logging
 
