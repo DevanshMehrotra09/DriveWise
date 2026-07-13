@@ -37,19 +37,20 @@ LLM Generation → Grounded Answer + Source Attribution → Logging
 
 ## Project Structure
    
+## Project Structure
+
+```text
 DriveWise/
 
-├── data/brochures/<BRAND>/<Model>.pdf   # source brochures
-
+├── Data/Brochures/<BRAND>/<Model>.pdf   # source brochures
 ├── notebooks/DriveWise.ipynb            # full pipeline, built section by section
-
 ├── app/app.py                           # Streamlit demo
-
 ├── vectorstore/                         # persisted FAISS index + chunk metadata
 ├── logs/query_log.jsonl                 # structured query logs
 ├── evaluation/                          # evaluation outputs
 ├── requirements.txt
 └── .env                                 # GOOGLE_API_KEY (not committed)
+```
 
 ## Setup
 
